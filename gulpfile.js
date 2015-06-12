@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 		connect = require('gulp-connect'),
 		browserify = require('gulp-browserify'),
 		concat = require('gulp-concat'),
-		port = process.env.port || 3000;
+		port = process.env.port || 4000;
 
 gulp.task('browserify', function() {
 	gulp.src('./app/js/main.js')
